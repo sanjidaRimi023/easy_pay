@@ -1,0 +1,26 @@
+[
+  {
+    "image": "/instant_pay_icon.png",
+    "title": "Instant payments",
+    "description": "Send money to friends or family in real-time, for free.",
+    "bg_color": "#F3F7FF"
+  },
+  {
+    "image": "/hidden_fees.png",
+    "title": "No hidden fees",
+    "description": "Clear and simple pricing. Always be aware of your costs.",
+    "bg_color": "#FBF6EF"
+  },
+  {
+    "image": "/wallet.png",
+    "title": "Digital wallet",
+    "description": "Store money securely and make fast transfers or purchases.",
+    "bg_color": "#EEF9FE"
+  },
+  {
+    "image": "/choose_secure_icon.png",
+    "title": "Secure transactions",
+    "description": "End-to-end encryption for all transactions.",
+    "bg_color": "#F4EDFC"
+  }
+]

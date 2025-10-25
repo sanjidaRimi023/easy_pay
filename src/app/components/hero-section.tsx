@@ -14,7 +14,7 @@ export default function HeroSection() {
       <div className="absolute top-0 left-0 w-full z-20 md:mt-10">
         <Navbar />
       </div>
-      <div className="flex flex-col md:flex-row items-center justify-between max-w-6xl mx-auto px-4 md:px-6 pt-24 md:pt-32">
+      <div className="flex flex-col md:flex-row items-center justify-between container mx-auto  px-4 sm:px-6 pt-24 md:pt-32">
         <div className="max-w-lg text-center md:text-left">
           <p className="text-xs md:text-sm font-medium text-gray-600 tracking-widest mb-2">
             EASY PAYMENT

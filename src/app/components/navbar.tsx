@@ -22,7 +22,7 @@ const Navbar = () => {
   return (
     <>
       <header className="sticky top-0 z-50 backdrop-blur-md border-gray-200/50 dark:border-gray-800/50">
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="container mx-auto px-4 sm:px-6">
           <div className="flex h-16 items-center justify-between">
             <div className="shrink-0">
               <Link href="/">
