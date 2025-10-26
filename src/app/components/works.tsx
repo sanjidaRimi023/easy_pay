@@ -36,10 +36,9 @@ export default function WorksSection() {
               className="flex flex-col items-start relative px-14 py-6"
             >
              
-              <span className="absolute bottom-32 left-16 text-7xl font-bold text-[#F6F6F6] select-none z-0">
+              <span className="absolute md:bottom-32 bottom-36 md:left-16 text-7xl font-bold text-[#F6F6F6] select-none z-0">
                 {item.number}
               </span>
-           
               <div className="p-4 rounded-2xl relative z-20">
                 <Image
                   src={item.image}
@@ -59,7 +58,19 @@ export default function WorksSection() {
             </div>
           ))}
         </div>
+        <div>
+          <Image
+            className="w-full my-6"
+        src="/how_it_work.png"
+          alt=""
+          width={1280}
+          height={660}
+        >
+
+        </Image>
       </div>
+      </div>
+      
     </section>
   );
 }
