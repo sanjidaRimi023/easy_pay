@@ -52,7 +52,7 @@ const Navbar = () => {
             <div className="hidden md:flex items-center space-x-3">
               <Link
                 href="#"
-                className="px-6 py-3 text-lg font-medium bg-blue-600 text-white rounded-full hover:bg-blue-700 transition-colors shadow-sm"
+                className="px-6 py-3 text-lg font-medium bg-primary text-white rounded-full hover:bg-accent transition-colors shadow-sm"
               >
                 Contact
               </Link>
@@ -122,7 +122,7 @@ const Navbar = () => {
 
             <Link
               href="#"
-              className="block w-full rounded-full bg-blue-600 px-6 py-4 text-center text-xl font-medium text-white hover:bg-blue-700 transition-colors shadow-sm"
+              className="block w-full px-6 py-3 text-lg font-medium bg-primary text-white rounded-full hover:bg-accent transition-colors shadow-sm"
               onClick={toggleMobileMenu}
             >
               Contact

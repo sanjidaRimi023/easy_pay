@@ -1,0 +1,20 @@
+[
+  {
+    "number": "01",
+    "image": "/downloadicon.png",
+    "title": "Download Easy Pay",
+    "description": "Get the Easy Pay app today from the App Store or Google Play hassle free."
+  },
+  {
+    "number": "02",
+    "image": "/link_card_icon.png",
+    "title": "Link your bank or card",
+    "description": "Easily connect your account in seconds with advanced security for peace of mind."
+  },
+  {
+    "number": "03",
+    "image": "/start_pay_icon.png",
+    "title": "Start paying",
+    "description": "Easily split bills, send money to friends, and make smooth online payments instantly."
+  }
+]
