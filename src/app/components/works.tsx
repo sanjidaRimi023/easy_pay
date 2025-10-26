@@ -35,7 +35,6 @@ export default function WorksSection() {
               key={item.number}
               className="flex flex-col items-start relative px-14 py-6"
             >
-             
               <span className="absolute md:bottom-32 bottom-36 md:left-16 text-7xl font-bold text-[#F6F6F6] select-none z-0">
                 {item.number}
               </span>
@@ -47,11 +46,11 @@ export default function WorksSection() {
                   height={48}
                 />
               </div>
-        
+
               <h3 className="text-lg font-semibold text-accent relative">
                 {item.title}
               </h3>
-    
+
               <p className="text-gray-500 text-sm relative z-10">
                 {item.description}
               </p>
@@ -61,16 +60,13 @@ export default function WorksSection() {
         <div>
           <Image
             className="w-full my-6"
-        src="/how_it_work.png"
-          alt=""
-          width={1280}
-          height={660}
-        >
-
-        </Image>
+            src="/how_it_work.png"
+            alt=""
+            width={1280}
+            height={660}
+          ></Image>
+        </div>
       </div>
-      </div>
-      
     </section>
   );
 }

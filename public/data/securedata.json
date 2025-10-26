@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "title": "Two-factor authentication",
+    "description": "Two-factor authentication ensures added protection by using verification steps.",
+    "colorClass": "bg-blue-500",
+    "borderClass": "rgba(59, 130, 246, 0.2)"
+  },
+  {
+    "id": 2,
+    "title": "Fraud detection and alerts",
+    "description": "Fraud detection safeguards your money, sending instant alerts for any activity.",
+    "colorClass": "bg-red-500",
+    "borderClass": "rgba(239, 68, 68, 0.2)"
+  },
+  {
+    "id": 3,
+    "title": "Transaction notifications",
+    "description": "Instant notifications for transaction keep you informed to manage your finances.",
+    "colorClass": "bg-green-500",
+    "borderClass": "rgba(34, 197, 94, 0.2)"
+  },
+  {
+    "id": 4,
+    "title": "Biometric access",
+    "description": "Easily and securely log in with biometric features, and facial recognition.",
+    "colorClass": "bg-teal-500",
+    "borderClass": "rgba(20, 184, 166, 0.2)"
+  },
+  {
+    "id": 5,
+    "title": "End-to-end encryption",
+    "description": "By encryption, protecting your data from unauthorized access.",
+    "colorClass": "bg-orange-500",
+    "borderClass": "rgba(249, 115, 22, 0.2)"
+  },
+  {
+    "id": 6,
+    "title": "24/7 Protection support",
+    "description": "Our dedicated team is available around the clock to help you.",
+    "colorClass": "bg-purple-500",
+    "borderClass": "rgba(168, 85, 247, 0.2)"
+  }
+]
