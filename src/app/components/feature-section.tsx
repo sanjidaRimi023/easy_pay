@@ -13,7 +13,7 @@ export default function FeatureSection() {
   }, []);
 
   return (
-    <section className="container mx-auto px-4 sm:px-6 my-24">
+    <section className="container mx-auto px-4 sm:px-6 mt-24 mb-16">
       {/* Header */}
       <div className="flex flex-col items-center justify-center text-center mb-12">
         <span className="text-secondary text-sm font-semibold tracking-wide">
