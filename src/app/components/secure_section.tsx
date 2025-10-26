@@ -19,8 +19,8 @@ export default function SecureSection() {
             SECURITY
           </h3>
 
-          <div className="flex flex-col md:flex-row justify-between items-start gap-8 md:gap-12 mt-4 mb-10">
-            <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-accent leading-tight md:w-1/2">
+          <div className="flex flex-col md:flex-row items-center md:gap-30">
+            <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-accent leading-tight">
               We protect your money at every step with Easy Pay
             </h1>
             <p className="text-[#4D525F] w-full md:w-1/2">
