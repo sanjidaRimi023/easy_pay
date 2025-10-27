@@ -5,6 +5,7 @@ import HeroSection from "./components/hero-section";
 import MarqueeSection from "./components/marque";
 import Navbar from "./components/navbar";
 import PricingSection from "./components/pricing";
+import ReadySection from "./components/ready-section";
 import SecureSection from "./components/secure_section";
 import WorksSection from "./components/works";
 
@@ -17,7 +18,8 @@ export default function Home() {
       <MarqueeSection />
       <WorksSection />
       <SecureSection />
-      <PricingSection/>
+      <PricingSection />
+      <ReadySection/>
   <Footer/>
     </>
   );
