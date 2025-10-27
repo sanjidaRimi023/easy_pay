@@ -1,4 +1,3 @@
-
 import FeatureSection from "./components/feature-section";
 import Footer from "./components/footer";
 import HeroSection from "./components/hero-section";
@@ -14,15 +13,32 @@ export default function Home() {
   return (
     <>
       <Navbar />
-      <HeroSection />
-      <FeatureSection />
-      <MarqueeSection />
-      <WorksSection />
-      <SecureSection />
-      <PricingSection />
-      <TestimonialsSection/>
-      <ReadySection/>
-  <Footer/>
+      <div id="hero">
+        <HeroSection />
+      </div>
+      <div id="feature">
+        <FeatureSection />
+      </div>
+      <div id="marquee">
+        <MarqueeSection />
+      </div>
+      <div id="works">
+        <WorksSection />
+      </div>
+      <div id="security">
+        <SecureSection />
+      </div>
+      <div id="pricing">
+        <PricingSection />
+      </div>
+      <div id="testimonials">
+        <TestimonialsSection />
+      </div>
+      <div id="ready">
+        <ReadySection />
+      </div>
+      <Footer />
     </>
   );
 }
+
