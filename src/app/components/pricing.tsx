@@ -149,6 +149,7 @@ const PricingCard: React.FC<PricingCardProps> = ({ plan }) => {
           </span>
         )}
       </div>
+      <hr className="h-2 py-3" />
 
       <ul className="space-y-3 mb-8">
         {plan.features.map((feature: PricingFeature, index: number) => (
