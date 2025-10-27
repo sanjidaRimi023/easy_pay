@@ -1,11 +1,12 @@
 "use client";
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import { TextAlignJustify, X } from "lucide-react";
 import { Link as ScrollLink } from "react-scroll";
 
 const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
 
   const navLinks = [
     { to: "feature", text: "Feature" },
@@ -14,11 +15,30 @@ const Navbar = () => {
     { to: "benefits", text: "Benefits" },
   ];
 
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 50) {
+        setScrolled(true);
+      } else {
+        setScrolled(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
   const toggleMobileMenu = () => setIsMobileMenuOpen(!isMobileMenuOpen);
 
   return (
     <>
-      <header className="sticky top-0 z-50 backdrop-blur-md border-gray-200/50 dark:border-gray-800/50">
+      <header
+        className={`sticky top-0 z-50 transition-all duration-300 ${
+          scrolled
+            ? "backdrop-blur-md bg-white/70 dark:bg-gray-900/70 border-b border-gray-200/50 dark:border-gray-800/50"
+            : "bg-transparent border-none top-10"
+        }`}
+      >
         <div className="container mx-auto px-4 sm:px-6">
           <div className="flex h-16 items-center justify-between">
             {/* Logo */}
@@ -28,7 +48,7 @@ const Navbar = () => {
               </ScrollLink>
             </div>
 
-            {/* Desktop Navigation */}
+            {/* Desktop Links */}
             <nav className="hidden md:flex items-center space-x-8">
               {navLinks.map((link) => (
                 <ScrollLink
@@ -36,7 +56,7 @@ const Navbar = () => {
                   to={link.to}
                   smooth={true}
                   duration={500}
-                  offset={-100} // adjust for navbar height
+                  offset={-100}
                   className="text-lg font-semibold text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 cursor-pointer"
                 >
                   {link.text}
@@ -44,7 +64,7 @@ const Navbar = () => {
               ))}
             </nav>
 
-            {/* Desktop Contact Button */}
+            {/* Desktop Contact */}
             <div className="hidden md:flex items-center space-x-3">
               <ScrollLink
                 to="contact"
