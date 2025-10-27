@@ -1,3 +1,4 @@
+import ContactSection from "./components/contact-section";
 import FeatureSection from "./components/feature-section";
 import Footer from "./components/footer";
 import HeroSection from "./components/hero-section";
@@ -36,6 +37,9 @@ export default function Home() {
       </div>
       <div id="ready">
         <ReadySection />
+      </div>
+      <div id="contact">
+        <ContactSection/>
       </div>
       <Footer />
     </>
