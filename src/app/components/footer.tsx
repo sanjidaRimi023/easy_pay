@@ -7,7 +7,7 @@ import React from "react";
 const Footer = () => {
   return (
     <footer className="bg-linear-to-r from-gray-50 to-gray-100 dark:from-gray-900 dark:to-black text-gray-900 dark:text-white py-12 px-4 font-inter border-t border-gray-200 dark:border-gray-800">
-      <div className="flex justify-between container mx-auto">
+      <div className="flex md:flex-row flex-col justify-between container mx-auto">
         <div>
           <Image src="/logo.png" alt="footer logo" width={153} height={65} />
           <p className="text-[#4D525F] w-[278px]">

@@ -7,6 +7,7 @@ import Navbar from "./components/navbar";
 import PricingSection from "./components/pricing";
 import ReadySection from "./components/ready-section";
 import SecureSection from "./components/secure_section";
+import TestimonialsSection from "./components/testimonial";
 import WorksSection from "./components/works";
 
 export default function Home() {
@@ -19,6 +20,7 @@ export default function Home() {
       <WorksSection />
       <SecureSection />
       <PricingSection />
+      <TestimonialsSection/>
       <ReadySection/>
   <Footer/>
     </>

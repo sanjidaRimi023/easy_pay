@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "name": "Sophia Turner",
+    "position": "Freelance Designer",
+    "image": "/review.png",
+    "message": "Easy Pay made receiving international payments so much easier. I get paid instantly without worrying about hidden charges. Highly recommended!",
+    "rating": 5
+  },
+  {
+    "id": 2,
+    "name": "James Carter",
+    "position": "Software Engineer at TechNest",
+    "image": "/review2.png",
+    "message": "Using Easy Pay for client transactions has been a game-changer. The platform is fast, secure, and their support team is really responsive.",
+    "rating": 4
+  },
+  {
+    "id": 3,
+    "name": "Amelia Brown",
+    "position": "Digital Marketer",
+    "image": "/review.png",
+    "message": "I’ve tried other payment platforms before, but none were as smooth as Easy Pay. The interface is clean and easy to use.",
+    "rating": 5
+  },
+  {
+    "id": 4,
+    "name": "Liam Anderson",
+    "position": "Entrepreneur",
+    "image": "/review2.png",
+    "message": "Easy Pay simplified my business transactions. I can now pay my remote team without delays or conversion hassles. Absolutely love it!",
+    "rating": 5
+  }
+]
